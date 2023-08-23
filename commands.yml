@@ -7,3 +7,26 @@
 cd tilda which is not available in my keyboard for now .. but this will take you back to the root dir.
 ls - commands should be look at it ..
 ls [S]* this will show all the fle or directris start with S or any letter you put there.
+
+#using search commands -> find, whereis, 
+find command => can use to search file in linux system e.g => find the list of files end with .txt or any extension 
+"find . -name "*.txt"
+
+-> wereis bash -> can be also use to find file .. this will also provide 
+the location file ..
+
+-> whereis -b nameOfTheFile
+will show the executable file .. only
+
+-> which -> is also a command to find executable file 
+e.g -> which bash # this will show the eecutable file .. 
+
+# using find command find a file both lower and uppercase file 
+-> "find /home -iname file-name" e.g find /home -iname file.txt
+
+# Working with directory. is much more easir working with following command
+-> mkdir
+-> create directory with sub directory ..
+-> mkdir -p Aboud
+
+
