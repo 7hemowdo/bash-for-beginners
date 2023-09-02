@@ -29,4 +29,29 @@ e.g -> which bash # this will show the eecutable file ..
 -> create directory with sub directory ..
 -> mkdir -p Aboud
 
+# Reading or viewing file from terminal 
+cat => command is one of the commands to view file in terminal
+=> with this command can also view multiple files at the same time in the terminal 
+=> e.g cat file1 file2
+# Head and tail command ..
+These are two commands used to view files -> log file .. which give you the ability to 
+view last 10 line or first 10 line in that particular file..
+# to view the fist 3 line use the following command 
+"head -n 4 fileName"  or 
+"head fileName"
+"tail fileName" display the last 10 line of any file 
+"tail -n 4 fileName"diaplay the last four line of anyFile.
+"more fileName" : this will allow you to view file based on size of the windows that terminal ..
+to scroll down use the space bar ..
+"less fileName" : has the same functionalities like man 
+-> use the spacebar to nigate pages . 
+-> you can search anything by using forward slash .. / and word.
+
+# Searching specific thing inside a file .. e.g searching some information in a log file .
+Using grep command will help achieve that 
+"grep "word"  fileName"
+
+
+
+
 
