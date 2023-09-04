@@ -52,6 +52,8 @@ Using grep command will help achieve that
 "grep "word"  fileName"
 
 
-
-
-
+# env command is very important command to know. is matter of must.. 
+ -> "echo $HOMW" => will show you the current logged user
+ -> "echo $USER" => will show who's the current logged in user.
+# Creating enviroment variable use export command ..
+"export" is command used for creating env variable 
