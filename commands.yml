@@ -7,6 +7,28 @@
 cd tilda which is not available in my keyboard for now .. but this will take you back to the root dir.
 ls - commands should be look at it ..
 ls [S]* this will show all the fle or directris start with S or any letter you put there.
+# Some good commands:
+1 = > tree -> it show the tree of the current directory
+2 man -> it show the manual of the command example "man cd", 
+3 pwd show the current directory 
+4 navigate using popd pushd commands 
+5 one easiest way to navigate without using popd N pushd .. cd - -> will take you back to the original dir
+
+cd tilda which is not available in my keyboard for now .. but this will take you back to the root dir.
+ls - commands should be look at it ..
+ls [S]* this will show all the fle or directris start with S or any letter you put there.
+=> To search a file or anything the following command can be use
+"ls *.exe" => find all the file that end with exe file ..
+"ls *.?? " => find all the file that end with two character extension.
+"ls *.*" => find all the file that end with any extension.
+"ls *.????" => find all the file that end with four character extension.
+"ls *[cC]*" => find all the file that contain c or C in the file name.
+"ls *[0-9]*" => find all the file that contain any number in the file name.
+"ls *[[:upper:]]*" => find all the file that contain any upper case letter in the file name.
+"ls *[[:lower:]]*" => find all the file that contain any lower case letter in the file name.
+"ls *[[:digit:]]*" => find all the file that contain any digit in the file name.
+
+
 
 #using search commands -> find, whereis, 
 find command => can use to search file in linux system e.g => find the list of files end with .txt or any extension 
